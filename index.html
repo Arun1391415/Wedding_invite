@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2d1725">
+<title>Sowmiya & Arun | A New Chapter Begins</title>
+<style>
+:root{--wine:#4a2035;--rose:#d98c9c;--gold:#e8c98c;--cream:#fff8f0;--ink:#2b1b24}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#170f17;color:var(--cream);font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+button,input{font:inherit}.hero{min-height:100svh;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;padding:32px 20px;background:radial-gradient(ellipse at 50% 80%,#704052 0,#2d1725 48%,#120d14 100%)}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid #e8c98c55;border-radius:50%;width:min(85vw,620px);aspect-ratio:1;animation:turn 45s linear infinite}.hero:after{width:min(70vw,500px);animation-direction:reverse}
+@keyframes turn{to{transform:rotate(360deg)}}.hero-inner{position:relative;z-index:1;max-width:720px}.eyebrow{letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font:11px Arial,sans-serif}.hero h1{font-size:clamp(48px,12vw,100px);font-weight:normal;line-height:.98;margin:20px 0 12px}.amp{color:var(--gold);font-style:italic}.hero p{color:#f1dfe2;letter-spacing:.12em;font:12px Arial,sans-serif}.seal{width:92px;height:92px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;margin:30px auto;color:var(--gold);font-size:30px}
+.cta{border:1px solid var(--gold);background:transparent;color:var(--cream);padding:14px 24px;border-radius:40px;letter-spacing:.12em;text-transform:uppercase;font:11px Arial,sans-serif;cursor:pointer;transition:.25s}.cta:hover{background:var(--gold);color:var(--ink)}
+section{padding:76px 20px;position:relative}.section-inner{max-width:900px;margin:auto}.chapter{text-align:center;color:var(--gold);font:10px Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase}.section-title{text-align:center;font-size:clamp(34px,7vw,58px);font-weight:normal;margin:12px 0 18px}.intro{text-align:center;color:#e7cfd5;max-width:590px;margin:0 auto 36px;line-height:1.8;font-size:16px}
+.scene{background:linear-gradient(145deg,#321c2a,#1d1420)}.scene:nth-of-type(even){background:linear-gradient(145deg,#241923,#432638)}
+.story-card{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center;background:#ffffff09;border:1px solid #e8c98c44;border-radius:22px;padding:20px;box-shadow:0 20px 70px #0003}
+.story-card.reverse .visual{order:2}.visual{min-height:260px;border-radius:16px;overflow:hidden;position:relative;background:linear-gradient(150deg,#ad6879,#392238);display:grid;place-items:center}
+.visual img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;display:none}.visual.has-photo img{display:block}.visual.has-photo .illustration{display:none}
+.illustration{font-size:76px;text-align:center;filter:drop-shadow(0 12px 10px #27121c88);animation:float 4s ease-in-out infinite}.illustration small{display:block;font:11px Arial,sans-serif;letter-spacing:.12em;color:#fff;margin-top:12px}
+@keyframes float{50%{transform:translateY(-12px)}}.story-copy h3{font-size:30px;font-weight:normal;margin:0 0 12px}.story-copy p{line-height:1.8;color:#e8d5dc;margin:0}.upload{display:inline-block;margin-top:18px;color:var(--gold);font:10px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;border-bottom:1px solid #e8c98c88;padding-bottom:5px}.upload input{display:none}
+.timeline{display:grid;gap:22px}.memory{display:flex;gap:18px;align-items:flex-start}.dot{width:12px;height:12px;flex:0 0 12px;border:1px solid var(--gold);border-radius:50%;margin-top:8px;box-shadow:0 0 18px #e8c98c88}.memory p{margin:0;color:#e8d5dc;line-height:1.7}
+.final{min-height:90svh;display:grid;place-items:center;text-align:center;background:radial-gradient(ellipse at center,#754052,#251522 65%,#120d14);overflow:hidden}.final h2{font-size:clamp(42px,10vw,84px);font-weight:normal;line-height:1.05;margin:18px 0}.final .names{font-size:22px;color:var(--gold);letter-spacing:.12em}.details{max-width:540px;margin:28px auto;padding:25px;border-top:1px solid #e8c98c77;border-bottom:1px solid #e8c98c77;line-height:2;color:#f3e2e4}
+footer{text-align:center;padding:25px;color:#b99ba7;font:10px Arial,sans-serif;letter-spacing:.12em}
+.floating{position:fixed;right:14px;bottom:14px;z-index:5;background:#3b2130dd;border:1px solid #e8c98c88;color:var(--gold);border-radius:30px;padding:11px 14px;font:10px Arial,sans-serif;letter-spacing:.08em;cursor:pointer}
+.spark{position:absolute;color:#e8c98c;opacity:.55;animation:rise 8s linear infinite}@keyframes rise{from{transform:translateY(30px);opacity:0}20%{opacity:.7}to{transform:translateY(-110vh);opacity:0}}
+@media(max-width:650px){section{padding:58px 16px}.story-card{grid-template-columns:1fr;padding:13px;gap:18px}.story-card.reverse .visual{order:0}.visual{min-height:230px}.story-copy{padding:0 7px 8px}.story-copy h3{font-size:27px}.hero h1{font-size:clamp(48px,15vw,78px)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+ <div class="hero-inner">
+  <div class="eyebrow">A celebration of love · 10 February 2027</div>
+  <div class="seal">♥</div>
+  <h1>Sowmiya<br><span class="amp">&</span> Arun</h1>
+  <p>TWO HEARTS · TWO FAMILIES · ONE BEAUTIFUL STORY</p>
+  <button class="cta" onclick="document.querySelector('#beginning').scrollIntoView({behavior:'smooth'})">Enter our story ↓</button>
+ </div>
+</header>
+
+<section class="scene" id="beginning">
+ <div class="section-inner">
+  <div class="chapter">Chapter 01 · The beginning</div>
+  <h2 class="section-title">Two families, one promise</h2>
+  <p class="intro">From two homes, two families brought us together. A moment, a promise, and two rings that marked the beginning of forever.</p>
+  <div class="story-card">
+   <div class="visual has-photo" id="engagementVisual"><div class="illustration">💍<small>TAMIL ENGAGEMENT · 01 NOVEMBER 2026</small></div><img src="engagement-scene.png" alt="3D illustrated Tamil engagement: Sowmiya in a traditional silk saree and Arun in formal attire exchanging rings with their families"></div>
+   <div class="story-copy"><h3>The day we said yes</h3><p>In a traditional Tamil engagement, Sowmiya is dressed in a beautiful silk saree and Arun in formal attire. With both families beside us, we exchange rings and begin a new journey together. A promise made with love, surrounded by the people who mean the most.</p><label class="upload">Add engagement photo<input type="file" accept="image/*" data-target="engagementVisual"></label></div>
+  </div>
+ </div>
+</section>
+
+<section class="scene">
+ <div class="section-inner">
+  <div class="chapter">Chapter 02 · The first hello</div>
+  <h2 class="section-title">Every story has a first moment</h2>
+  <p class="intro">A little nervousness, a lot of smiles, and a selfie to remember where it all began.</p>
+  <div class="story-card reverse">
+   <div class="visual" id="meetingVisual"><div class="illustration">📸<small>OUR FIRST MEETING</small></div><img alt="Our first meeting photo"></div>
+   <div class="story-copy"><h3>One hello, countless memories</h3><p>We met, shared a smile, and captured our first little memory together. We didn't know then how many beautiful moments were waiting for us.</p><label class="upload">Add first-meeting selfie<input type="file" accept="image/*" data-target="meetingVisual"></label></div>
+  </div>
+ </div>
+</section>
+
+<section class="scene">
+ <div class="section-inner">
+  <div class="chapter">Chapter 03 · Little adventures</div>
+  <h2 class="section-title">The moments that became ours</h2>
+  <p class="intro">Not every love story is made of grand gestures. Sometimes, it's the simplest days that become our favourite memories.</p>
+  <div class="timeline">
+   <div class="story-card"><div class="visual" id="bikeVisual"><div class="illustration">🏍️🌅<small>THE OPEN ROAD</small></div><img alt="Our bike ride photo"></div><div class="story-copy"><h3>Ride into the sunset</h3><p>Wind in our hair, roads ahead, and your hand close to mine. Every ride feels like an adventure when we're together.</p><label class="upload">Add bike ride photo<input type="file" accept="image/*" data-target="bikeVisual"></label></div></div>
+   <div class="story-card reverse"><div class="visual" id="beachVisual"><div class="illustration">🌊🌴<small>BY THE SEA</small></div><img alt="Our beach photo"></div><div class="story-copy"><h3>Our little world by the sea</h3><p>Just the two of us, waves for music, and a sunset we'd wish could last a little longer.</p><label class="upload">Add beach photo<input type="file" accept="image/*" data-target="beachVisual"></label></div></div>
+   <div class="story-card"><div class="visual" id="movieVisual"><div class="illustration">🍿🎬<small>ONE MORE MOVIE?</small></div><img alt="Our movie night photo"></div><div class="story-copy"><h3>Movie nights & popcorn</h3><p>Picking a movie, sharing popcorn, laughing at the same scenes. The best seat is always beside you.</p><label class="upload">Add movie-night photo<input type="file" accept="image/*" data-target="movieVisual"></label></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="final" id="invite">
+ <div class="section-inner">
+  <div class="chapter">The next chapter · 10.02.2027</div>
+  <div class="seal">♥</div>
+  <div class="names">SOWMIYA & ARUN</div>
+  <h2>A new chapter<br>begins...</h2>
+  <p class="intro">Our story has been beautiful so far. And the best chapter is yet to come.</p>
+  <div class="details">
+   <div style="color:var(--gold);letter-spacing:.2em;font:11px Arial,sans-serif">TOGETHER WITH OUR FAMILIES</div>
+   <div style="font-size:25px;margin:12px 0">Request the pleasure of your company</div>
+   <div style="font-size:30px;color:var(--gold)">10 February 2027</div>
+   <div>Wedding celebration</div>
+   <div id="venueText">Venue details to be announced</div>
+  </div>
+  <h2 style="font-size:clamp(28px,6vw,44px)">Together, forever. ❤️</h2>
+  <p style="color:#e8c98c;letter-spacing:.2em;font:11px Arial,sans-serif">WE CAN'T WAIT TO CELEBRATE WITH YOU</p>
+  <button class="cta" onclick="shareInvite()">Share our invitation</button>
+ </div>
+</section>
+<footer>MADE WITH LOVE · SOWMIYA & ARUN · 2027</footer>
+
+<button class="floating" id="musicButton" onclick="toggleMusic()">♫ ADD MUSIC</button>
+<audio id="bgMusic" loop></audio>
+<script>
+document.querySelectorAll('input[type=file]').forEach(input=>{
+ input.addEventListener('change',e=>{
+  const file=e.target.files[0]; if(!file)return;
+  const target=document.getElementById(input.dataset.target);
+  const img=target.querySelector('img'); img.src=URL.createObjectURL(file); target.classList.add('has-photo');
+ });
+});
+function toggleMusic(){
+ const audio=document.getElementById('bgMusic');
+ if(!audio.src){
+  const picker=document.createElement('input'); picker.type='file'; picker.accept='audio/*';
+  picker.onchange=()=>{if(picker.files[0]){audio.src=URL.createObjectURL(picker.files[0]);audio.play();document.getElementById('musicButton').textContent='♫ MUTE MUSIC';}};
+  picker.click(); return;
+ }
+ if(audio.paused){audio.play();document.getElementById('musicButton').textContent='♫ MUTE MUSIC';}
+ else{audio.pause();document.getElementById('musicButton').textContent='♫ PLAY MUSIC';}
+}
+async function shareInvite(){
+ const data={title:'Sowmiya & Arun — Wedding Invitation',text:'Our next chapter begins on 10 February 2027. We would love to celebrate with you!'};
+ if(navigator.share){try{await navigator.share(data)}catch(e){}}
+ else if(navigator.clipboard){await navigator.clipboard.writeText(location.href);alert('Invitation link copied!');}
+ else{prompt('Copy your invitation link:',location.href);}
+}
+</script>
+</body></html>
